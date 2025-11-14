@@ -21,3 +21,4 @@ app.use("/api/users", require("./routes/usersRoutes"))
 app.use(errorHandler)
 
 app.listen(port, () => console.log(`Servidor iniciado en el puerto ${port}`))
+
